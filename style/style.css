@@ -1,0 +1,184 @@
+@import "reset.css";
+@import "fonts.css";
+
+html{
+  font-family: "RobotoRegular"; 
+}
+a{
+  text-decoration: none;
+}
+/**** блок1 ******/
+.block1{
+  background: url(../images/franshisa/b1-bg.png) no-repeat center;
+  height: 693px;
+  background-size: cover;
+}
+.block1 .top-line{
+  background: url(../images/franshisa/b1-bg-header.png) repeat;
+  height: 90px;
+}
+.block1 .content{
+  width: 960px;
+  margin: 0 auto;
+}
+.block1 .content .logo{
+  height: 90px;
+  width: 257px;
+  float: left;
+}
+.block1 .content .logo img{
+  margin-top: 14px;
+  margin-left: 2px;
+  float: left;
+}
+.block1 .content .logo h2{
+font-size: 33px;
+  color: #faa61a;
+  margin-top: 10px;
+  margin-left: 61px;
+  margin-bottom: -1px;
+}
+.block1 .content .logo h3{
+  font-size: 12px;
+  color: #000;
+  font-family: "RobotoLight";
+  margin-left: 65px;
+  text-transform: uppercase;
+}
+.block1 .content .top-menu{
+  width: 385px;
+  height: 42px;
+  float: left;
+  padding-left: 108px;
+  margin-top: 38px;
+}
+.block1 .content .top-menu a{
+display: block;
+float: left;
+font-family: "RobotoMedium";
+font-size: 17px;
+color: #000;
+text-transform: uppercase;
+}
+.block1 .content .top-menu a:first-child{
+margin-right: 50px;
+}
+.block1 .content .top-menu a:hover{
+color: #faa61a;
+}
+.block1 .content .phone {
+  float: right;
+  width: 206px;
+  margin-top: 30px;
+}
+.block1 .content .phone p{
+font-size: 22px;
+color: #000;
+font-family: "RobotoRegular";
+  word-spacing: 3px;
+}
+.block1 .content h1{
+  width: 682px;
+  height: 180px;
+  display: block;
+  font-family: "RobotoMedium";
+  font-size: 62px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 74px auto;
+  line-height: 74px;
+  padding-left: 14px;
+  padding-top: 19px;
+  background: url(../images/franshisa/b1-bg-h1.png) repeat;
+}
+.block1 .content .item{
+  width: 265px;
+  float: left;
+  text-align: center;
+}
+.block1 .content .text{
+  width: 259px;
+  margin-top: 20px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  line-height: 38px;
+  padding-left: 3px;
+  padding-bottom: 15px;
+  background: url(../images/franshisa/b1-bg-h1.png) repeat;
+  font-family: "RobotoLight";
+  font-size: 30px;
+  color: #fff;
+}
+.item.one {
+  margin-left: 12px;
+}
+.item.two {
+  margin-left: 78px;
+}
+.item.three {
+  margin-left: 65px;
+}
+/**** блок1 конец******/
+
+/**** блок2******/
+.block2{
+  width: 617px;
+  height: 260px;
+  background: #fff;
+  margin: 0 auto;
+  /* z-index: 999999; */
+  position: relative;
+  border-radius: 20px;
+}
+.title{
+  color: #3f3e40;
+  font-family: "RobotoLight";
+  font-size: 31px;
+  text-align: center;
+  padding-top: 48px;
+  margin-bottom: 51px;
+  margin-left: 6px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}
+.block2 p{
+  font-family: "RobotoLight";
+  font-size: 18px;
+  background: #fff;
+  margin: -2px auto;
+  line-height: 30px;
+  text-align: center;
+}
+.block2 p span{
+  font-size: 23px;
+}
+/**** блок2 конец******/
+
+/**** блок3 ******/
+.block3{
+  height: 100px;
+  background: url(../images/franshisa/b2-bg.png) repeat;
+  margin-top: -76px;
+  padding-top: 119px;
+}
+.block3 #more{
+width: 160px;
+  height: 36px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: none;
+  margin: 0 auto;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  font-family: "RobotoBold";
+  font-size: 12px;
+  cursor:pointer;
+}
+.block3 #more:hover{
+  border: 2px solid #fff;
+  background: #b7b9b9;
+}
+/**** блок3 конец******/
